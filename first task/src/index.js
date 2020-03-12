@@ -4,12 +4,11 @@ function makeSum () {
     let value = 0;
     return function (number) {
         return value += number;
-    }
+    };
 }
 
-let sum = makeSum();
+const sum = makeSum();
 
-sum(3);
-sum(5);
-sum(20);
-
+sum(3); // eslint-disable-line
+sum(5); // eslint-disable-line
+sum(20); // eslint-disable-line
