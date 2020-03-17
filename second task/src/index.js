@@ -1,7 +1,7 @@
 'use strict';
 
 function makeCounter (startValue, step = 1 ) {  // eslint-disable-line
-    let item = +startValue;
+    let item = startValue;
     function counter () {
         return item += step;
     }
